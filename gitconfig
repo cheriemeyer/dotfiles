@@ -1,0 +1,18 @@
+[alias]
+	nb = checkout -b
+	cm = checkout master
+	bd = branch -D
+	s = status
+	coma = commit -am
+	p = pull
+	mm = merge master
+	c = checkout
+	b = branch
+	l = log
+[user]
+	name = Cherie Meyer
+	email = cherie@rd.io
+[core]
+	excludesfile = /Users/cheriemeyer/.gitignore_global
+[color]
+	ui = true
